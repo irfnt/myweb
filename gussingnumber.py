@@ -1,7 +1,7 @@
 import random
 my_number = random.randint(1, 1000)
 #correct_number = 1500 
-print(my_number)
+#print(my_number)
 attempt = 0 
 
 while True:
