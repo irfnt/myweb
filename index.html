@@ -3,11 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first website</title>
-</head> 
+    <meta name="description" content="Dr. Irfan Tariq - Researcher in Signal Processing, Machine Learning, FPGA Systems, and Semiconductor Design. Open to Postdoctoral Opportunities.">
+    <meta name="author" content="Dr. Irfan Tariq">
+    <title>Dr. Irfan Tariq | Academic Portfolio</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- add your favicon -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            background: #f1f5f9;
+            color: #1e293b;
+            line-height: 1.7;
+        }
+        header {
+            background: linear-gradient(135deg, #0f172a, #1e3a8a);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 44px;
+            font-weight: 700;
+        }
+        header p {
+            font-size: 18px;
+            opacity: 0.95;
+            margin-top: 10px;
+        }
+        .buttons {
+            margin-top: 25px;
+        }
+        .buttons a {
+            display: inline-block;
+            margin: 8px;
+            padding: 12px 22px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .btn-outline {
+            border: 2px solid white;
+            color: white;
+        }
+        .btn-outline:hover {
+            background: rgba(255,255,255,0.15);
+        }
+        .btn-primary {
+            background: #2563eb;
+            color: white;
+        }
+        .btn-primary:hover {
+            background: #1e40af;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 50px 20px;
+        }
+        .section {
+            margin-bottom: 70px;
+        }
+        h2 {
+            border-bottom: 3px solid #2563eb;
+            display: inline-block;
+            padding-bottom: 6px;
+            margin-bottom: 25px;
+            font-size: 26px;
+        }
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 14px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+        }
+        ul, ol {
+            padding-left: 22px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: #0f172a;
+            color: white;
+            font-size: 14px;
+        }
+        @media (max-width: 768px) {
+            header {
+                padding: 60px 20px;
+            }
+            header h1 { font-size: 36px; }
+            header p { font-size: 16px; }
+            .container { padding: 40px 15px; }
+        }
+    </style>
+</head>
 <body>
-    <!----This is mt first HTML Code-->
-    <p>This is my first page and i trying to make it better <br> for you</p>
-    <p>Hello world !, This is my first html code </p>
+<header>
+    <h1>Dr. Irfan Tariq</h1>
+    <p>Signal Processing • Machine Learning • FPGA Systems • Semiconductor SoC Design</p>
+    <div class="buttons">
+        <a href="https://scholar.google.com/citations?user=QCzXbwcAAAAJ" 
+           target="_blank" rel="noopener noreferrer" class="btn-outline">Google Scholar</a>
+        <a href="Irfan_CV.pdf" class="btn-outline" download>Download CV</a>
+        <a href="mailto:mr.irfantariq@hotmail.com" class="btn-primary">Contact Me</a>
+    </div>
+</header>
+
+<main class="container">
+    <section class="section">
+        <h2>About Me</h2>
+        <div class="card">
+            <p>I hold a Ph.D. in Information and Communication Engineering with research expertise in advanced signal processing, sparse signal recovery, machine learning, radio astronomy systems, and FPGA-based real-time architectures. My work integrates algorithm design with hardware implementation for high-performance intelligent systems.</p>
+            <p>Currently, I am a Staff Engineer specializing in Clock Tree Synthesis (CTS), timing closure, and Power-Performance-Area (PPA) optimization at advanced semiconductor nodes (3nm/5nm). I am actively seeking postdoctoral opportunities in signal processing, AI-driven systems, hardware-aware machine learning, and intelligent sensing technologies.</p>
+        </div>
+    </section>
+
+    <!-- Rest of your sections remain unchanged -->
+
+    <!-- ... paste your Education, Professional Experience, Publications, Research Interests sections here ... -->
+
+</main>
+
+<footer>
+    © <script>document.write(new Date().getFullYear());</script> Dr. Irfan Tariq | Academic Portfolio | Open to Postdoctoral Opportunities
+</footer>
 </body>
 </html>
